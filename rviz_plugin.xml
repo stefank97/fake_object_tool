@@ -1,0 +1,8 @@
+<library path="fake_object_tool">
+  <class
+    name="fake_object_tool/RectangleTool"
+    type="fake_object_tool::RectangleTool"
+    base_class_type="rviz_common::Tool">
+    <description>Publish a polygon rectangle.</description>
+  </class>
+</library>

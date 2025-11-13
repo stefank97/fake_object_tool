@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>fake_object_tool</name>
+  <version>0.0.0</version>
+  <description>RViz Tool</description>
+  <maintainer email="ros@todo.todo">ros</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>pluginlib</depend>
+  <depend>rviz_common</depend>
+  <depend>rviz_rendering</depend>
+  <depend>qtbase5-dev</depend>
+
+  <export>
+    <rviz plugin="share/${PROJECT_NAME}/rviz_plugin.xml"/>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
