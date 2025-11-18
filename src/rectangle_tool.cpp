@@ -80,8 +80,8 @@ namespace fake_object_tool {
 
         RCLCPP_DEBUG(
             rclcpp::get_logger("rviz"),
-            "Frame for rectangle publication is: %s; at stamp %u.%u",
-            frame.c_str(), stamp.sec, stamp.nanosec
+            "Frame for rectangle publication is: %s",
+            frame.c_str()
         );
         
         //Delete old points (Just to be sure)
@@ -178,7 +178,7 @@ namespace fake_object_tool {
             rclcpp::get_logger("rviz"),
             "Cross product at (%f, %f, %f)",
             center.x, center.y, center.z
-        )
+        );
         // Get current time for the message stamp
         auto raw_node = context_->getRosNodeAbstraction().lock()->get_raw_node();
         const rclcpp::Time stamp = raw_node->now();
