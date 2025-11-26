@@ -2,8 +2,8 @@
 <package format="3">
   <name>fake_object_tool</name>
   <version>0.0.0</version>
-  <description>RViz Tool</description>
-  <maintainer email="ros@todo.todo">ros</maintainer>
+  <description>RViz Tool to spawn virtual objects into the map frame, use in combination with fake_object_filter.</description>
+  <maintainer email="stefan.kessler97@gmail.com">ros</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
